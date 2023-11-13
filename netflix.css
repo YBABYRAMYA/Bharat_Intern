@@ -1,0 +1,577 @@
+*{
+    margin:0%;
+    padding:0%
+}
+body{
+    background-color:#232323;
+}
+#header{
+    
+    color:white;
+    height:610px;
+    position:relative;
+    top:25px;
+    width:100%;
+  
+   background-image:linear-gradient(to top,rgba(0,0,0,0.8)0,rgba(0,0,0,0)60%,rgba(0,0,0,0.8)100%),
+   url(netflix\ back\ groung.jpg);
+   background-size:cover;
+   background-repeat:no-repeat;
+}
+#first{
+    height:39.99px;
+    
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+    top:10px;
+    left:10px;
+    right:30px;
+}
+#logo{
+    height:39.99px;
+}
+#hp2{
+    width:176.87px;
+    height:32px;
+    margin:0px 0px 0px -8px;
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+}
+#select{
+    width:80px;
+    height:31.98px;
+    padding:6px,28px,6px,36px;
+    background-color:inherit;
+    color:white;
+    position:relative;
+    right:30px;
+    border:0.0625rem solid white;
+    border-radius:0.1875rem;
+    text-align:center;
+}
+#but{
+    height:32px;
+    width:76.89px;
+    background-color:red;
+    color:white;
+    border-style:solid;
+    border-color:black;
+    border-radius:0.1875rem;
+    border-width:0.0625rem;
+    font-family:Helvetica, sans-serif;
+    position:relative;
+    right:30px;
+    font-weight:700;
+}
+#but:hover{
+    background-color:rgb(179, 2, 2);
+}
+#heading{
+    margin:0px 0px 0px 0px;
+    position:relative;
+    top:250px;
+    left:150px;
+    right:150px;
+    font-size:40px;
+    font-weight:900;
+    font-family:Helvetica, sans-serif
+}
+#line2{
+    position:relative;
+    top:260.16px;
+    font-size:20px;
+    margin-top:10px;
+    font-family:Helvetica, sans-serif;
+    left:400px;
+    right:300px;
+
+}
+#line3{
+    position:relative;
+    top:265.16px;
+    font-size:20px;
+    font-family:Helvetica, sans-serif;
+    left:250px;
+    right:250px;
+}
+#text{
+    
+    width:368.97px;
+    padding:24px 16px 8px;
+    font-family:Helvetica, sans-serif;
+    position:relative;
+    top:275px;
+    background-color:transparent;
+    color:inherit;
+    left:285px;
+    border:0.0625rem solid white;
+    border-radius:0.1875rem;
+}
+
+#get{
+    width:175.22px;
+    height:52.5px;
+    font-family:Helvetica, sans-serif;
+    position:relative;
+    top:265px;
+    background-color:red;
+    color:white;
+    left:300.97px;
+    border-color:black;
+    border-width:0.0625rem;
+    border-style:solid;
+    border-radius:0.1875rem;
+    font-size:20px;
+    font-weight:bold;
+}
+#get:hover{
+    background-color:rgb(179, 2, 2);
+}
+#second{
+    background-color:black;
+    color:white;
+    height:600.3px;
+    margin-top:32px;
+    margin-bottom:8px;
+    width:100%;
+    padding-top:4.25rem;
+    padding-bottom:4.25rem;
+}
+#s1{
+    height:600.3px;
+    width:100%;
+    margin-left:1rem;
+    margin-right:1rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#s2{
+    width:50%;
+    height:193.38px;
+    padding:0px 6px 0px 0px;
+}
+#line4{
+     font-size:52px;
+     font-weight:800px;
+     font-family:Helvetica, sans-serif;
+}
+#line5{
+    margin-top:16px;
+    font-size:26px;
+    font-weight:400px;
+    color:white;
+    font-family:Helvetica, sans-serif;
+}
+
+#tv{
+    
+    width:100%;
+    position:relative;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    bottom:200px;
+    right:20px
+    
+}
+#ve{
+    height:193.38px;
+    width:50%;
+    position:relative;
+    z-index:0;
+
+}
+#vedio{
+    position:absolute;
+    width:470px;
+    height:380px;
+    bottom:-13px;
+    left:55px;
+    z-index:-1;
+    
+}
+
+#third{
+    background-color:black;
+    color:white;
+    height:481.3px;
+    padding-top:4.25rem;
+    padding-bottom:4.25rem;
+    width:100%
+    
+}
+#t1{
+    height:100%;
+    width:100%;
+    margin-left:1rem;
+    margin-right:1rem;
+    display:flex;
+    justify-content: space-between;
+}
+#t2{
+  width:50%;
+}
+#t3{
+    display:flex;
+    align-items:center;
+    width:50%;
+}
+#line6{
+    color:white;
+    font-size:48px;
+    font-weight:900;
+    font-family:Helvetica, sans-serif;
+}
+#line7{
+    color:white;
+    font-size:24px;
+    font-family:Helvetica, sans-serif;
+    margin-top:16px;
+}
+#t5{
+    border:2px solid white;
+    border-radius:0.75rem;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:12px;
+    padding-right:12px;
+    height:95.65px;
+    width:400.04px;
+    display:flex;
+    position:relative;
+    bottom:80px;
+    left:125px;
+    background-color:black;
+}
+#strange{
+    height:95.65px;
+}
+#t6{
+    height:95.65px;
+    width:200px;
+ 
+   padding-left:20px;
+   
+}
+#line8{
+    font-size:24px;
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight:300;
+    position:relative;
+    top:30px;
+}
+#line9{
+    font-size:16px;
+    color:#0071EB;
+    font-family:Helvetica, sans-serif;
+    font-weight:300;
+    position:relative;
+    top:30px;
+}
+#t7{
+    background:url(netflix\ download-icon.gif) center center no-repeat;
+    margin-left:30px;
+    width:60px;
+}
+#fourth{
+    background-color:black;
+    color:white;
+    height:481.3px;
+    margin-top:8px;
+    margin-bottom:8px;
+    width:100%;
+    padding-top:4.25rem;
+    padding-bottom:4.25rem;
+  
+}
+#f1{
+    height:100%;
+    width:100%;
+    margin-left:1rem;
+    margin-right:1rem;
+    display:flex;
+}
+#f2{
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+#line10{
+    font-size:48px;
+    font-weight:700;
+    color:white;
+    font-family:Helvetica, sans-serif;
+}
+#line11{
+    color:white;
+    font-size:24px;
+    margin-top:16px;
+    font-family:Helvetica, sans-serif;
+    font-weight:300;
+}
+#atv{
+    width:100%;
+    height:100%;
+    position:relative;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+ 
+}
+#f3{
+    height:100%;
+    width:50%;
+    position:relative;
+    z-index:0;
+
+}
+#gif{
+    position:absolute;
+    width:350px;
+    height:225px;
+    bottom:200px;
+    left:95px;
+    z-index:-1;
+}
+
+#five{
+    background-color:black;
+    color:white;
+    height:481.3px;
+    padding-top:4.25rem;
+    padding-bottom:4.25rem;
+    
+}
+#fi1{
+    width:100%;
+    height:100%;
+    margin-left:1rem;
+    margin-right:1rem;
+    display:flex;
+}
+#fi2{
+    width:45%;
+    height:100%;
+}
+#fi3{
+    width:55%;
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+#child{
+   width:100%;
+}
+#line12{
+    font-size:48px;
+    font-weight:700;
+    font-family:Helvetica, sans-serif;
+    color:white;
+
+}
+#line13{
+    font-size:24px;
+    margin-top:16px;
+    font-weight:300;
+    color:white;
+    font-family:Helvetica, sans-serif;
+}
+#six{
+    background-color:black;
+    color:white;
+    margin-top:8px;
+    margin-bottom:8px;
+    height:775.4px;
+    padding-top:4.5rem;
+    padding-bottom:4.5rem;
+   
+}
+#line14{
+    font-size:48px;
+    font-weight:900;
+    font-family:Helvetica, sans-serif;
+    color:white;
+    position:relative;
+    left:20%;
+    right:20%;
+}
+#but1{
+    background:grey;
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-size:20px;
+    position:relative;
+    left:5%;
+    right:10%;
+    width:85%;
+    height:50px;
+    padding:24px;
+    text-align:left;
+ 
+}
+.accordion{
+    margin:60px auto;
+    width:100%;
+    max-width:750px;
+}
+.accordion li{
+    list-style:none;
+    width:100%;
+    padding:5px;
+}
+.accordion li label{
+    display:flex;
+    align-items:center;
+    padding:20px;
+    font-size:16px;
+    font-weight:500;
+    background-color:#303030;
+    position:relative;
+    cursor:pointer;
+    margin-bottom:2px;
+    font-family:Helvetica, sans-serif;
+}
+.accordion li label:hover{
+    background-color:rgb(62, 61, 61);
+}
+label::after{
+    content:'+';
+    font-size:34px;
+    position:absolute;
+    right:20px;
+    font-weight:700;
+    transition: transform 0.5s;
+    
+}
+input[type="radio"]{
+    display:none;
+}
+.accordion .fcontent{
+ 
+    background-color:#303030;
+    text-align:left;
+    max-height:0;
+    overflow:hidden;
+    padding:0 20px;
+    transition: max-height,0.5s,padding 0.5s;
+    font-family:Helvetica, sans-serif;
+
+}
+.accordion input[type="radio"]:checked + label +.fcontent{
+    max-height:600px;
+    padding:30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+   transform:rotate(135deg);
+}
+#line15{
+    color:white;
+    font-size:16px;
+    font-family:Helvetica, sans-serif;
+    position:relative;
+    font-weight:200;
+    left:280px;
+    right:200px;
+}
+#line16{
+    background-color:transparent;
+    color:inherit;
+    padding:24px 16px 8px;
+    border: 0.1px solid white;
+    border-radius:0.18rem;
+    position:relative;
+    left:300px;
+    top:20px;
+   font-family:Helvetica, sans-serif;
+    width:368.79px;
+    
+}
+#line17{
+    background-color:red;
+    color:white;
+    font-size:20px;
+    font-weight:700;
+    font-family:Helvetica, sans-serif;
+    position:relative;
+    left:320px;
+    top:15px;
+    height:48.51px;
+    border:0.0625rem solid black;
+    border-radius:0.1875rem;
+    width:200px;
+}
+#line17:hover{
+    background-color:rgb(179, 2, 2);
+}
+#seven{
+    background-color:black;
+    color:white;
+    height:263.07px;
+  
+    padding-top:48px;
+    padding-bottom:48px;
+    padding-left:32px;
+    padding-right:32px;
+}
+#fo1{
+    height:20.65px;
+    width:268.78px;
+    font-size:16px;
+    color:#FFFFFFB3;
+    margin-bottom:12px;
+    font-family:Helvetica, sans-serif;
+}
+#link1{
+    color:#FFFFFFB3;
+    font-size:16px;
+    font-family:Helvetica, sans-serif;
+}
+#fo2{
+    height:132.77px;
+}
+#fu{
+    display:flex;
+    flex-wrap:wrap;
+    margin:-16px 0px 14px -12px;
+}
+.li1{
+    width:20%;
+    margin-left:16px;
+    margin-top:12px;
+    font-family:Helvetica, sans-serif;
+    color:#FFFFFFB3;
+}
+.li2{
+    font-family:Helvetica, sans-serif;
+    color:#FFFFFFB3;
+    font-size:14px;
+}
+
+#fo3{
+    height:39.97px;
+    margin:-8px 0px 0px -24px;
+    margin-top:10px;
+    margin-left:-6px;
+}
+#s12{
+    background-color:inherit;
+    color: white;
+    height:31.98px;
+    width:150px;
+    padding:6px 36px;
+    font-family:Helvetica, sans-serif;
+    border:0.0625rem solid white;
+    border-radius:0.1875rem;
+    
+}
+#fo4{
+    color:#FFFFFFB3;
+    font-family:Helvetica, sans-serif;
+    font-size:14px;
+    margin-top:12px;
+}
+    
